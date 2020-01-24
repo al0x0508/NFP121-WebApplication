@@ -1,0 +1,8 @@
+/home/alain/RiderProjects/WebApplication/Model/bin/Debug/netstandard2.1/Model.deps.json
+/home/alain/RiderProjects/WebApplication/Model/bin/Debug/netstandard2.1/Model.dll
+/home/alain/RiderProjects/WebApplication/Model/bin/Debug/netstandard2.1/Model.pdb
+/home/alain/RiderProjects/WebApplication/Model/obj/Debug/netstandard2.1/Model.csprojAssemblyReference.cache
+/home/alain/RiderProjects/WebApplication/Model/obj/Debug/netstandard2.1/Model.AssemblyInfoInputs.cache
+/home/alain/RiderProjects/WebApplication/Model/obj/Debug/netstandard2.1/Model.AssemblyInfo.cs
+/home/alain/RiderProjects/WebApplication/Model/obj/Debug/netstandard2.1/Model.dll
+/home/alain/RiderProjects/WebApplication/Model/obj/Debug/netstandard2.1/Model.pdb

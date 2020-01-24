@@ -1,0 +1,11 @@
+/home/alain/RiderProjects/WebApplication/Repositories/bin/Debug/netstandard2.1/Repositories.deps.json
+/home/alain/RiderProjects/WebApplication/Repositories/bin/Debug/netstandard2.1/Repositories.dll
+/home/alain/RiderProjects/WebApplication/Repositories/bin/Debug/netstandard2.1/Repositories.pdb
+/home/alain/RiderProjects/WebApplication/Repositories/bin/Debug/netstandard2.1/Model.dll
+/home/alain/RiderProjects/WebApplication/Repositories/bin/Debug/netstandard2.1/Model.pdb
+/home/alain/RiderProjects/WebApplication/Repositories/obj/Debug/netstandard2.1/Repositories.csprojAssemblyReference.cache
+/home/alain/RiderProjects/WebApplication/Repositories/obj/Debug/netstandard2.1/Repositories.AssemblyInfoInputs.cache
+/home/alain/RiderProjects/WebApplication/Repositories/obj/Debug/netstandard2.1/Repositories.AssemblyInfo.cs
+/home/alain/RiderProjects/WebApplication/Repositories/obj/Debug/netstandard2.1/Repositories.csproj.CopyComplete
+/home/alain/RiderProjects/WebApplication/Repositories/obj/Debug/netstandard2.1/Repositories.dll
+/home/alain/RiderProjects/WebApplication/Repositories/obj/Debug/netstandard2.1/Repositories.pdb

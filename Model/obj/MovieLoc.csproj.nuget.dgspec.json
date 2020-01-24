@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/alain/RiderProjects/WebApplication/MovieLoc/MovieLoc.csproj": {}
+  },
+  "projects": {
+    "/home/alain/RiderProjects/WebApplication/MovieLoc/MovieLoc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alain/RiderProjects/WebApplication/MovieLoc/MovieLoc.csproj",
+        "projectName": "MovieLoc",
+        "projectPath": "/home/alain/RiderProjects/WebApplication/MovieLoc/MovieLoc.csproj",
+        "packagesPath": "/home/alain/.nuget/packages/",
+        "outputPath": "/home/alain/RiderProjects/WebApplication/MovieLoc/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alain/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

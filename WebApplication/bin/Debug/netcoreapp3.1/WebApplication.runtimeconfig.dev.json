@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/alain/.dotnet/store/|arch|/|tfm|",
+      "/home/alain/.nuget/packages"
+    ]
+  }
+}
