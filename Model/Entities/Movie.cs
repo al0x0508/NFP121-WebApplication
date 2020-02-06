@@ -7,6 +7,7 @@ namespace Model.Entities
     {   [Key] 
         public int id { get; set; }
         public string Title { get; set; }
+        [Required]
         public string Description { get; set; }
         private int Duration { get; set; }
         private DateTime ReleaseDate  { get; set; }

@@ -4,6 +4,63 @@
     "/home/alain/RiderProjects/WebApplication/WebApplication/WebApplication.csproj": {}
   },
   "projects": {
+    "/home/alain/RiderProjects/WebApplication/IMoveServices/IMoveServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alain/RiderProjects/WebApplication/IMoveServices/IMoveServices.csproj",
+        "projectName": "IMoveServices",
+        "projectPath": "/home/alain/RiderProjects/WebApplication/IMoveServices/IMoveServices.csproj",
+        "packagesPath": "/home/alain/.nuget/packages/",
+        "outputPath": "/home/alain/RiderProjects/WebApplication/IMoveServices/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alain/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "/home/alain/RiderProjects/WebApplication/Model/Model.csproj": {
+                "projectPath": "/home/alain/RiderProjects/WebApplication/Model/Model.csproj"
+              },
+              "/home/alain/RiderProjects/WebApplication/Repositories/Repositories.csproj": {
+                "projectPath": "/home/alain/RiderProjects/WebApplication/Repositories/Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/home/alain/RiderProjects/WebApplication/Model/Model.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -14,7 +71,7 @@
         "outputPath": "/home/alain/RiderProjects/WebApplication/Model/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/alain/.nuget/NuGet/NuGet.Config"
+          "/home/alain/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -82,7 +139,7 @@
         "outputPath": "/home/alain/RiderProjects/WebApplication/Repositories/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/alain/.nuget/NuGet/NuGet.Config"
+          "/home/alain/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -150,7 +207,7 @@
         "outputPath": "/home/alain/RiderProjects/WebApplication/WebApplication/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/alain/.nuget/NuGet/NuGet.Config"
+          "/home/alain/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -161,6 +218,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "/home/alain/RiderProjects/WebApplication/IMoveServices/IMoveServices.csproj": {
+                "projectPath": "/home/alain/RiderProjects/WebApplication/IMoveServices/IMoveServices.csproj"
+              },
               "/home/alain/RiderProjects/WebApplication/Model/Model.csproj": {
                 "projectPath": "/home/alain/RiderProjects/WebApplication/Model/Model.csproj"
               },

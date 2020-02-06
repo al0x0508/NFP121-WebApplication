@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{4F8E15E5-6092-4C30-AD0D-8C6EE187FF0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMoveServices", "IMoveServices\IMoveServices.csproj", "{6338A13D-605A-4651-9B88-8C34DA627AAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{4F8E15E5-6092-4C30-AD0D-8C6EE187FF0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F8E15E5-6092-4C30-AD0D-8C6EE187FF0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F8E15E5-6092-4C30-AD0D-8C6EE187FF0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6338A13D-605A-4651-9B88-8C34DA627AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6338A13D-605A-4651-9B88-8C34DA627AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6338A13D-605A-4651-9B88-8C34DA627AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6338A13D-605A-4651-9B88-8C34DA627AAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

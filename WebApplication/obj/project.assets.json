@@ -1314,6 +1314,20 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "IMoveServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Model": "1.0.0",
+          "Repositories": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IMoveServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IMoveServices.dll": {}
+        }
+      },
       "Model/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
@@ -5111,6 +5125,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "IMoveServices/1.0.0": {
+      "type": "project",
+      "path": "../IMoveServices/IMoveServices.csproj",
+      "msbuildProject": "../IMoveServices/IMoveServices.csproj"
+    },
     "Model/1.0.0": {
       "type": "project",
       "path": "../Model/Model.csproj",
@@ -5124,6 +5143,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "IMoveServices >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.1",
       "Microsoft.EntityFrameworkCore.Relational >= 3.1.1",
       "Model >= 1.0.0",
@@ -5144,7 +5164,7 @@
       "outputPath": "/home/alain/RiderProjects/WebApplication/WebApplication/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/alain/.nuget/NuGet/NuGet.Config"
+        "/home/alain/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5155,6 +5175,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "/home/alain/RiderProjects/WebApplication/IMoveServices/IMoveServices.csproj": {
+              "projectPath": "/home/alain/RiderProjects/WebApplication/IMoveServices/IMoveServices.csproj"
+            },
             "/home/alain/RiderProjects/WebApplication/Model/Model.csproj": {
               "projectPath": "/home/alain/RiderProjects/WebApplication/Model/Model.csproj"
             },

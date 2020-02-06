@@ -1,31 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e2f5723-2bcf-4503-bed8-d24c54a20117" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Film/Class1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Film/Film.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Film/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/Entities/Movie.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/Model.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/MovieDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieLocation/Model/Movie.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieLocation/MovieLocation.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MovieLocation/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repositories/Interfaces/IMovieService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repositories/Repositories.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repositories/Repositories/StaticMovieRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/Controllers/MovieController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/Controllers/WeatherForecastController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/WeatherForecast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/WebApplication.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApplication/appsettings.json" afterDir="false" />
+    <list default="true" id="7e2f5723-2bcf-4503-bed8-d24c54a20117" name="Default Changelist" comment="Génération création BDD OK.">
+      <change afterPath="$PROJECT_DIR$/IMoveServices/Class1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMoveServices/IMoveServices.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMoveServices/Services/IMovieService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMoveServices/Services/MovieService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repositories/Repositories/MovieRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication/mono_crash.mem.394957.1.blob" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Entities/Movie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Entities/Movie.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Migrations/MovieDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Migrations/MovieDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/MovieDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/MovieDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/bin/Debug/netstandard2.1/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Model/bin/Debug/netstandard2.1/Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/bin/Debug/netstandard2.1/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Model/bin/Debug/netstandard2.1/Model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/Debug/netstandard2.1/Model.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Debug/netstandard2.1/Model.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/Debug/netstandard2.1/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Debug/netstandard2.1/Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/Debug/netstandard2.1/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Debug/netstandard2.1/Model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/Model.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Model.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/Model.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Model.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/Model.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/Model.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Model/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/Interfaces/IMovieService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/Interfaces/IMovieRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/Repositories/StaticMovieRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/bin/Debug/netstandard2.1/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/bin/Debug/netstandard2.1/Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/bin/Debug/netstandard2.1/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/bin/Debug/netstandard2.1/Model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/bin/Debug/netstandard2.1/Repositories.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/bin/Debug/netstandard2.1/Repositories.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/bin/Debug/netstandard2.1/Repositories.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/bin/Debug/netstandard2.1/Repositories.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/obj/Debug/netstandard2.1/Repositories.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/obj/Debug/netstandard2.1/Repositories.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/obj/Debug/netstandard2.1/Repositories.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/obj/Debug/netstandard2.1/Repositories.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/obj/Debug/netstandard2.1/Repositories.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/obj/Debug/netstandard2.1/Repositories.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/obj/Repositories.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/obj/Repositories.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/obj/Repositories.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/obj/Repositories.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/obj/Repositories.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/obj/Repositories.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repositories/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Repositories/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication.sln" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Controllers/MovieController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Controllers/MovieController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/WebApplication.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/WebApplication.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Repositories.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Repositories.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Repositories.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/Repositories.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/WebApplication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/bin/Debug/netcoreapp3.1/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/Debug/netcoreapp3.1/WebApplication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/obj/WebApplication.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/WebApplication.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/obj/WebApplication.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/WebApplication.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/obj/WebApplication.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/WebApplication.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,18 +67,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/IMoveServices/Services/MovieService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/IMoveServices/Services/IMovieService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/WeatherForecast.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Model/Migrations/MovieDbContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Model/Migrations/20200124084007_init.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Model/Migrations/20200124084007_init.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApplication/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Film/Class1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Model/Migrations/20200206144415_description_required.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Controllers/WeatherForecastController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Model/Migrations/20200206144415_description_required.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Film/Properties/AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Repositories/Repositories/StaticMovieRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/IMoveServices/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Model/Entities/Movie.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Repositories/Interfaces/IMovieService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Repositories/Interfaces/IMovieRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApplication/Controllers/MovieController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Repositories/Repositories/MovieRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Model/MovieDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MovieLocation/Model/Movie.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -59,12 +100,20 @@
         <option value="$PROJECT_DIR$/MovieLocation/Model/Movie.cs" />
         <option value="$PROJECT_DIR$/MovieLoc/Class1.cs" />
         <option value="$PROJECT_DIR$/MovieLoc/Model/Movie.cs" />
-        <option value="$PROJECT_DIR$/Repositories/Interfaces/IMovieRepository.cs" />
         <option value="$PROJECT_DIR$/Repositories/Class1.cs" />
         <option value="$PROJECT_DIR$/Repositories/Repositories/StaticMovieRepository.cs" />
-        <option value="$PROJECT_DIR$/Repositories/Interfaces/IMovieService.cs" />
-        <option value="$PROJECT_DIR$/WebApplication/Controllers/MovieController.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/appsettings.json" />
+        <option value="$PROJECT_DIR$/Model/MovieDbContext.cs" />
         <option value="$PROJECT_DIR$/Model/Entities/Movie.cs" />
+        <option value="$PROJECT_DIR$/Repositories/Interfaces/IMovieService.cs" />
+        <option value="$PROJECT_DIR$/IMoveServices/Class1.cs" />
+        <option value="$PROJECT_DIR$/IMoveServices/Services/IMovieServices.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Startup.cs" />
+        <option value="$PROJECT_DIR$/Repositories/Interfaces/IMovieRepository.cs" />
+        <option value="$PROJECT_DIR$/Repositories/Repositories/MovieRepository.cs" />
+        <option value="$PROJECT_DIR$/IMoveServices/Services/IMovieService.cs" />
+        <option value="$PROJECT_DIR$/IMoveServices/Services/MovieService.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Controllers/MovieController.cs" />
       </list>
     </option>
   </component>
@@ -149,8 +198,17 @@
       <workItem from="1579783488561" duration="288000" />
       <workItem from="1579783899338" duration="1488000" />
       <workItem from="1579785406010" duration="4236000" />
-      <workItem from="1579854937800" duration="298000" />
+      <workItem from="1579854937800" duration="805000" />
+      <workItem from="1580992336501" duration="12087000" />
     </task>
+    <task id="LOCAL-00001" summary="Génération création BDD OK.">
+      <created>1579855481845</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579855481845</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +231,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Génération création BDD OK." />
+    <option name="LAST_COMMIT_MESSAGE" value="Génération création BDD OK." />
   </component>
   <component name="WindowStateProjectService">
     <state x="273" y="84" key="#Web_Browsers" timestamp="1579784016473">
@@ -187,29 +247,105 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="749" y="337" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1579783570542" />
-    <state width="937" height="194" key="GridCell.Tab.0.bottom" timestamp="1579791375351">
+    <state x="800" y="474" key="Github.ShareDialog" timestamp="1579855656455">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="937" height="194" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1579791375351" />
-    <state width="937" height="194" key="GridCell.Tab.0.center" timestamp="1579791375350">
+    <state x="800" y="474" key="Github.ShareDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1579855656455" />
+    <state width="1874" height="196" key="GridCell.Tab.0.bottom" timestamp="1581004334667">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="937" height="194" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1579791375350" />
-    <state width="937" height="194" key="GridCell.Tab.0.left" timestamp="1579791375349">
+    <state width="1874" height="196" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581004334667" />
+    <state width="1874" height="196" key="GridCell.Tab.0.center" timestamp="1581004334666">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="937" height="194" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1579791375349" />
-    <state width="937" height="194" key="GridCell.Tab.0.right" timestamp="1579791375351">
+    <state width="1874" height="196" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581004334666" />
+    <state width="1874" height="196" key="GridCell.Tab.0.left" timestamp="1581004334665">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="937" height="194" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1579791375351" />
-    <state x="834" y="324" width="802" height="518" key="Rider.ProjectTemplateDialog.Size" timestamp="1579786129162">
+    <state width="1874" height="196" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581004334665" />
+    <state width="1874" height="196" key="GridCell.Tab.0.right" timestamp="1581004334666">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="834" y="324" width="802" height="518" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1080@0.0.1920.1080" timestamp="1579786129162" />
+    <state width="1874" height="196" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581004334666" />
+    <state width="1874" height="358" key="GridCell.Tab.1.bottom" timestamp="1580999811831">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="358" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1580999811831" />
+    <state width="1874" height="358" key="GridCell.Tab.1.center" timestamp="1580999811831">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="358" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1580999811831" />
+    <state width="1874" height="358" key="GridCell.Tab.1.left" timestamp="1580999811831">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="358" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1580999811831" />
+    <state width="1874" height="358" key="GridCell.Tab.1.right" timestamp="1580999811831">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="358" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1580999811831" />
+    <state width="1874" height="358" key="GridCell.Tab.2.bottom" timestamp="1580999811832">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="358" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1580999811832" />
+    <state width="1874" height="358" key="GridCell.Tab.2.center" timestamp="1580999811832">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="358" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1580999811832" />
+    <state width="1874" height="358" key="GridCell.Tab.2.left" timestamp="1580999811832">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="358" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1580999811832" />
+    <state width="1874" height="358" key="GridCell.Tab.2.right" timestamp="1580999811832">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="358" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1580999811832" />
+    <state width="1874" height="358" key="GridCell.Tab.3.bottom" timestamp="1580999811834">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="358" key="GridCell.Tab.3.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1580999811834" />
+    <state width="1874" height="358" key="GridCell.Tab.3.center" timestamp="1580999811833">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="358" key="GridCell.Tab.3.center/0.0.1920.1080@0.0.1920.1080" timestamp="1580999811833" />
+    <state width="1874" height="358" key="GridCell.Tab.3.left" timestamp="1580999811833">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="358" key="GridCell.Tab.3.left/0.0.1920.1080@0.0.1920.1080" timestamp="1580999811833" />
+    <state width="1874" height="358" key="GridCell.Tab.3.right" timestamp="1580999811833">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="358" key="GridCell.Tab.3.right/0.0.1920.1080@0.0.1920.1080" timestamp="1580999811833" />
+    <state width="1874" height="358" key="GridCell.Tab.4.bottom" timestamp="1580999811835">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="358" key="GridCell.Tab.4.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1580999811835" />
+    <state width="1874" height="358" key="GridCell.Tab.4.center" timestamp="1580999811834">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="358" key="GridCell.Tab.4.center/0.0.1920.1080@0.0.1920.1080" timestamp="1580999811834" />
+    <state width="1874" height="358" key="GridCell.Tab.4.left" timestamp="1580999811834">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="358" key="GridCell.Tab.4.left/0.0.1920.1080@0.0.1920.1080" timestamp="1580999811834" />
+    <state width="1874" height="358" key="GridCell.Tab.4.right" timestamp="1580999811834">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="358" key="GridCell.Tab.4.right/0.0.1920.1080@0.0.1920.1080" timestamp="1580999811834" />
+    <state x="834" y="324" width="802" height="518" key="Rider.ProjectTemplateDialog.Size" timestamp="1581003223494">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="834" y="324" width="802" height="518" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1080@0.0.1920.1080" timestamp="1581003223494" />
+    <state x="763" y="265" width="397" height="573" key="RiderGenerateDialog" timestamp="1581003799752">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="763" y="265" width="397" height="573" key="RiderGenerateDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581003799752" />
     <state width="498" height="447" key="SwitcherDM" timestamp="1579791192176">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="498" height="447" key="SwitcherDM/0.0.1920.1080@0.0.1920.1080" timestamp="1579791192176" />
+    <state x="561" y="303" key="Vcs.Push.Dialog.v2" timestamp="1579855490374">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="561" y="303" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1579855490374" />
   </component>
 </project>

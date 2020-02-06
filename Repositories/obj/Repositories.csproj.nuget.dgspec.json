@@ -14,7 +14,7 @@
         "outputPath": "/home/alain/RiderProjects/WebApplication/Model/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/alain/.nuget/NuGet/NuGet.Config"
+          "/home/alain/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -82,7 +82,7 @@
         "outputPath": "/home/alain/RiderProjects/WebApplication/Repositories/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/alain/.nuget/NuGet/NuGet.Config"
+          "/home/alain/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"

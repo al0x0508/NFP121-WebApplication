@@ -15,6 +15,9 @@
     "frameworks": {
       "netcoreapp3.1": {
         "projectReferences": {
+          "/home/alain/RiderProjects/WebApplication/IMoveServices/IMoveServices.csproj": {
+            "projectPath": "/home/alain/RiderProjects/WebApplication/IMoveServices/IMoveServices.csproj"
+          },
           "/home/alain/RiderProjects/WebApplication/Model/Model.csproj": {
             "projectPath": "/home/alain/RiderProjects/WebApplication/Model/Model.csproj"
           },

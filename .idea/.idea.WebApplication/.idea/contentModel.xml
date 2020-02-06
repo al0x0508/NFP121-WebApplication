@@ -4,6 +4,22 @@
     <e p="$USER_HOME$/.Rider2019.3/system/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2019.3/system/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_WebApplication.-1486258093.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="IMoveServices" t="IncludeRecursive">
+        <e p="Class1.cs" t="Include" />
+        <e p="IMoveServices.csproj" t="IncludeRecursive" />
+        <e p="Services" t="Include">
+          <e p="IMovieService.cs" t="Include" />
+          <e p="MovieService.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="IMoveServices.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="Model" t="IncludeRecursive">
         <e p="Entities" t="Include">
           <e p="Movie.cs" t="Include" />
@@ -11,6 +27,8 @@
         <e p="Migrations" t="Include">
           <e p="20200124084007_init.Designer.cs" t="Include" />
           <e p="20200124084007_init.cs" t="Include" />
+          <e p="20200206144415_description_required.Designer.cs" t="Include" />
+          <e p="20200206144415_description_required.cs" t="Include" />
           <e p="MovieDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Model.csproj" t="IncludeRecursive" />
@@ -26,10 +44,10 @@
       </e>
       <e p="Repositories" t="IncludeRecursive">
         <e p="Interfaces" t="Include">
-          <e p="IMovieService.cs" t="Include" />
+          <e p="IMovieRepository.cs" t="Include" />
         </e>
         <e p="Repositories" t="Include">
-          <e p="StaticMovieRepository.cs" t="Include" />
+          <e p="MovieRepository.cs" t="Include" />
         </e>
         <e p="Repositories.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
@@ -56,6 +74,7 @@
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="mono_crash.mem.394957.1.blob" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">

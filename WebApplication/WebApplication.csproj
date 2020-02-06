@@ -5,6 +5,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\IMoveServices\IMoveServices.csproj" />
       <ProjectReference Include="..\Model\Model.csproj" />
       <ProjectReference Include="..\Repositories\Repositories.csproj" />
     </ItemGroup>
